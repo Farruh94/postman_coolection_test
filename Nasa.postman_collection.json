@@ -1,0 +1,543 @@
+{
+	"info": {
+		"_postman_id": "45a7e3fb-56b3-4430-9c92-a239619f50b4",
+		"name": "Nasa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Date",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=kF8mnyRQBaWu9HgKz0mDe5YzIRHoCMhgG1dg0I92&date=1999-07-23",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "kF8mnyRQBaWu9HgKz0mDe5YzIRHoCMhgG1dg0I92"
+						},
+						{
+							"key": "date",
+							"value": "1999-07-23"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "thumbs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=kF8mnyRQBaWu9HgKz0mDe5YzIRHoCMhgG1dg0I92&thumbs=true",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "kF8mnyRQBaWu9HgKz0mDe5YzIRHoCMhgG1dg0I92"
+						},
+						{
+							"key": "thumbs",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postman_req",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic cG9zdG1hbjpwYXNzd29yZA==",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://postman-echo.com/basic-auth",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"basic-auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://stackoverflow.com/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "stackoverflow.com"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Chromium\";v=\"97\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "none"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6"
+					},
+					{
+						"key": "cookie",
+						"value": "prov=7415b196-21b7-27b8-e220-56027eec4dcc; OptanonAlertBoxClosed=2022-01-25T10:07:04.651Z; OptanonConsent=isIABGlobal=false&datestamp=Tue+Jan+25+2022+13%3A07%3A04+GMT%2B0300+(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D0%BE%D0%B5+%D0%B2%D1%80%D0%B5%D0%BC%D1%8F)&version=6.10.0&hosts=&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1"
+					}
+				],
+				"url": {
+					"raw": "https://stackoverflow.com/",
+					"protocol": "https",
+					"host": [
+						"stackoverflow",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.toptal.com/developers/postbin/1643105118768-8071011253632",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\":\"value\"}"
+				},
+				"url": {
+					"raw": "https://www.toptal.com/developers/postbin/1643105118768-8071011253632",
+					"protocol": "https",
+					"host": [
+						"www",
+						"toptal",
+						"com"
+					],
+					"path": [
+						"developers",
+						"postbin",
+						"1643105118768-8071011253632"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// 1. correct response format JSON\r",
+							"pm.test(\"Correct response format JSON\", function() {\r",
+							"    pm.response.to.have.jsonBody()\r",
+							"});\r",
+							"\r",
+							"// 2. We have all the declared fields in the response\r",
+							"pm.test(\"Check that we have all the declared fields\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    pm.expect(jsonData).to.have.property(\"people\");\r",
+							"    pm.expect(jsonData).to.have.property(\"planets\");\r",
+							"    pm.expect(jsonData).to.have.property(\"films\");\r",
+							"    pm.expect(jsonData).to.have.property(\"species\");\r",
+							"    pm.expect(jsonData).to.have.property(\"vehicles\");\r",
+							"    pm.expect(jsonData).to.have.property(\"starships\");\r",
+							"});\r",
+							"\r",
+							"//3. Field value isn't NULL\r",
+							"pm.test(\"Check if value isn't NULL\", function() {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.people).not.equal(null);\r",
+							"    pm.expect(jsonData.planets).not.equal(null);\r",
+							"    pm.expect(jsonData.films).not.equal(null);\r",
+							"    pm.expect(jsonData.species).not.equal(null);\r",
+							"    pm.expect(jsonData.vehicles).not.equal(null);\r",
+							"    pm.expect(jsonData.starships).not.equal(null);\r",
+							"});\r",
+							"\r",
+							"// 4. Check value isn't empty\r",
+							"pm.test(\"Check if value isn't empty\", function() {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.people).not.equal(\"\");\r",
+							"    pm.expect(jsonData.planets).not.equal(\"\");\r",
+							"    pm.expect(jsonData.films).not.equal(\"\");\r",
+							"    pm.expect(jsonData.species).not.equal(\"\");\r",
+							"    pm.expect(jsonData.vehicles).not.equal(\"\");\r",
+							"    pm.expect(jsonData.starships).not.equal(\"\");\r",
+							"});\r",
+							"\r",
+							"// 5. Check if field corresponds to a specific value\r",
+							"pm.test(\"Check if field corresponds to a specific value\", function(){\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.people).to.equal(\"https://swapi.dev/api/people/\");\r",
+							"    pm.expect(jsonData.planets).to.equal(\"https://swapi.dev/api/planets/\");\r",
+							"    pm.expect(jsonData.films).to.equal(\"https://swapi.dev/api/films/\");\r",
+							"    pm.expect(jsonData.species).to.equal(\"https://swapi.dev/api/species/\");\r",
+							"    pm.expect(jsonData.vehicles).to.equal(\"https://swapi.dev/api/vehicles/\");\r",
+							"    pm.expect(jsonData.starships).to.equal(\"https://swapi.dev/api/starships/\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"// 6. Status code is 200\r",
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200)\r",
+							"});\r",
+							"\r",
+							"// 7. Status message is OK\r",
+							"pm.test(\"Status message is OK\", function(){\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"// 8. Response time is less than 1000ms\r",
+							"pm.test(\"Response time is less than 1000ms\", function(){\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"// 9. There is a specific header in the response \r",
+							"pm.test(\"There is a specifich header in the response\", function(){\r",
+							"    pm.response.to.have.header(\"Content-Type\")\r",
+							"});\r",
+							"\r",
+							"// 10. There is a specific header with a specific value\r",
+							"pm.test(\"There is a specific header with a specific value\", function(){\r",
+							"    pm.response.to.have.header(\"Content-Type\", \"application/json\")\r",
+							"});\r",
+							"\r",
+							"// 11. Cookies exists\r",
+							"pm.test(\"Cookies exists\", function(){\r",
+							"    pm.cookies.has(\"\")\r",
+							"});\r",
+							"\r",
+							"// 12. Cookie has value\r",
+							"pm.test(\"Cookie has value\", function(){\r",
+							"    try{\r",
+							"        var MY_Cookie = pm.cookies.get(\"\");\r",
+							"        console.log(MY_Cookie);\r",
+							"        } catch(e){\r",
+							"            console.log(\"Some problem with LOG->\" + e)\r",
+							"        }\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://swapi.dev/api/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json schema",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var data = JSON.parse(responseBody);\r",
+							"\r",
+							"var schema = {\r",
+							"    // specify type of object \r",
+							"    \"type\": \"object\",\r",
+							"    // specify requires properties\r",
+							"    \"required\": [\"people\", \"planets\", \"films\", \"species\", \"vehicles\", \"starships\"],\r",
+							"    // describe the properties\r",
+							"    \"properties\": {\r",
+							"        \"people\": {\"type\":\"string\"},\r",
+							"        \"planets\":{\"type\":\"string\"},\r",
+							"        \"films\":{\"type\":\"string\"},\r",
+							"        \"species\":{\"type\":\"string\"},\r",
+							"        \"vehicles\":{\"type\":\"string\"},\r",
+							"        \"starships\":{\"type\":\"string\"},\r",
+							"\r",
+							"    }\r",
+							"};\r",
+							"\r",
+							"pm.test(\"Body is correct\", function() {\r",
+							"    pm.expect(tv4.validate(data, schema)).to.be.true;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json schema 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var data = JSON.parse(responseBody);\r",
+							"\r",
+							"var schema = {\r",
+							"    // specify type of object \r",
+							"    \"type\": \"object\",\r",
+							"    // specify requires properties\r",
+							"    \"required\": [\"people\", \"planets\", \"films\", \"species\", \"vehicles\", \"starships\"],\r",
+							"    // describe the properties\r",
+							"    \"properties\": {\r",
+							"        \"people\": {\"type\":\"string\"},\r",
+							"        \"planets\":{\"type\":\"string\"},\r",
+							"        \"films\":{\"type\":\"string\"},\r",
+							"        \"species\":{\"type\":\"string\"},\r",
+							"        \"vehicles\":{\"type\":\"string\"},\r",
+							"        \"starships\":{\"type\":\"string\"},\r",
+							"\r",
+							"    }\r",
+							"};\r",
+							"\r",
+							"pm.test(\"Body is correct\", function() {\r",
+							"    pm.expect(tv4.validate(data, schema)).to.be.true;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://718e3ba9-c709-444b-8561-8f4bfa5712fd.mock.pstmn.io",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://718e3ba9-c709-444b-8561-8f4bfa5712fd.mock.pstmn.io",
+					"protocol": "https",
+					"host": [
+						"718e3ba9-c709-444b-8561-8f4bfa5712fd",
+						"mock",
+						"pstmn",
+						"io"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://718e3ba9-c709-444b-8561-8f4bfa5712fd.mock.pstmn.io",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://718e3ba9-c709-444b-8561-8f4bfa5712fd.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"718e3ba9-c709-444b-8561-8f4bfa5712fd",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 11 Mar 2022 13:04:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=59add2f43b702aad"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=7aa7c84bd792e9ee"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "118"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1647003872"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": {\n        \"name\": \"mockRequestNotFoundError\",\n        \"message\": \"To mock this request add an example response for the mock server to return.\",\n        \"header\": \"You need an example\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
